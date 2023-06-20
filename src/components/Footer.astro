@@ -3,11 +3,16 @@ const today = new Date();
 ---
 
 <footer>
-	&copy; {today.getFullYear()} Tanmay Kachroo. All rights reserved.
+	<div>
+		&copy; {today.getFullYear()} Tanmay Kachroo. All rights reserved.
+	</div>
+	<a target="_blank" href="/rss.xml">RSS</a>
 </footer>
 <style>
 	footer {
-		padding: 25px;
-		text-align: center;
+		padding: 25px 0;
+		font-size: 0.7rem;
+		display: flex;
+		justify-content: space-between;
 	}
 </style>
