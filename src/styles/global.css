@@ -72,3 +72,10 @@ blockquote {
   margin: 0px;
   font-style: italic;
 }
+hr {
+  border: 0;
+  margin: 0;
+  width: 100%;
+  height: 0.1px;
+  background: rgb(67, 67, 67);
+}
